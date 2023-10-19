@@ -11,9 +11,12 @@
 ##    Each object in the list requires `connector_id` and `service_type`.
 ##    An example is:
 ##    connectors:
-##      - connector_id: changeme # the ID of the connector.
-##        service_type: changeme # The service type of the connector.
-##        api_key: changeme # The Elasticsearch API key used to write data into the content index.
+##    connector_id: "XGn5RosBKvQmxgzp0ICk"
+##    service_type: "mongodb"
+##    api_key: "WFdrT1I0c0JLdlFteGd6cE5JQjA6SGducF9jaV9UdVdvRXVtRFZsMkF6dw=="
+##    elasticsearch:
+##    host: "http://localhost:9200"
+##    api_key: "WFdrT1I0c0JLdlFteGd6cE5JQjA6SGducF9jaV9UdVdvRXVtRFZsMkF6dw=="
 #connectors: []
 #
 #
